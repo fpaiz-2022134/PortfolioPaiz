@@ -10,8 +10,8 @@ export const About = () => {
     ));
     return (
         <div className="border-b border-neutral-900 pb-4">
-            <h1 className='my-20 text-center'> About
-                <span className='text-neutral-500'> Me</span>
+            <h1 className='my-20 text-center text-4xl'> About
+                <span className='text-neutral-500 text-4xl'> Me</span>
             </h1>
 
             <div className='flex flex-wrap'>
@@ -32,7 +32,7 @@ export const About = () => {
                     <div className='flex flex-col justify-center lg:justify-start'>
                         <p><strong>Name:</strong> Franco Alejandro Paiz Gónzalez</p>
                         <p><strong>Age:</strong> 18 </p>
-                        <p className='my-2 max-w-xl py-6'><strong>Description:</strong> {paragraphs}</p>
+                        <p className='my-2 max-w-xl py-6 text-justify'><strong>Description:</strong> {paragraphs}</p>
                     </div>
                 </motion.div>
             </div>

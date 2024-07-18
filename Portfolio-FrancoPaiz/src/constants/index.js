@@ -4,8 +4,10 @@ import dress2 from '../assets/projects/dress2.jpg'
 import website1 from '../assets/projects/website1.jpg'
 import agendaweb2 from '../assets/projects/agendaweb2.jpg'
 import gestorcomercial from '../assets/projects/gestorcomercial.jpg'
-import task1 from '../assets/projects/task1.jpg'
-import cashflow from '../assets/projects/cashflow.jpg'
+import task2 from '../assets/projects/task1.jpg'
+import cashflow2 from '../assets/projects/cashflow2.jpg'
+import olasis1 from '../assets/projects/olasis1.jpg'
+
 
 import progra1 from "../assets/Progra1.jpg"
 import progra2 from "../assets/Progra2.jpg"
@@ -75,7 +77,7 @@ export const PROJECTS = [
   {
     title: "Bank in Java Swing",
     description:
-      `Este es un proyecto en el cual se implementa sobre todo el lenguaje de Java, con el uso de JavaSwing se implementa las interfaces de la aplicacion. Esta aplicación trata de un sistema bancario para realizar transacciones y realizar todo tipo de actividad administrativa tanto del lado del cliente como del lado del admin.`,
+      ` This is a project in which is implemented mainly the Java language, with the use of JavaSwing is implemented the interfaces of the application. This application is a banking system to perform transactions and perform all kinds of administrative activity both on the client side and on the admin side.`,
     technologies: ["Java", "JavaSe", "JavaSwing", "MyQL", "SQL"],
     image: bank1,
     link: 'https://github.com/fpaiz-2022134/Banco4to.git'
@@ -84,7 +86,7 @@ export const PROJECTS = [
     title: "Tonys Kinal",
     image: tonyskinal1,
     description:
-      `Proyecto de un restaurante que ofrece servicios de comida en el cual se puede trabajar solamente como modo administrador. Este administrador puede agregar empleados, platillos, servicios, etc. Y agregar los datos de la empresa a quien se le dará el servicio, de esta manera se puede generar al finalizar el programa una factura personalizada con todos los datos recopilados.`,
+      `Project of a restaurant that offers food services in which you can work only as an administrator. This administrator can add employees, dishes, services, etc.. And add the data of the company to whom the service will be given, in this way you can generate at the end of the program a personalized invoice with all the data collected.`,
     technologies: ["Java", "JavaEE", "JavaFX", "MySQL", "Scene Builder", "iReport"],
     link: 'https://github.com/fpaiz-2022134/TonysKinal.git'
   },
@@ -92,7 +94,7 @@ export const PROJECTS = [
     title: "DressCode",
     image: dress2,
     description:
-      `Proyecto realizado con Java e implementado como aplicación web. Este proyecto se trata de una tienda de ropa online en la cual cuenta con funciones de carrito de compras para cliente y de gestión para administrador. Genera de manera automática una factura al realizar las compras. Dresscode fue desarrollado grupalmente con la metodología SCRUM, teniendo cada uno de los integrantes roles importantes de codificación.`,
+      `Project made with Java and implemented as a web application. This project is an online clothing store in which it has shopping cart functions for customer and management for administrator. It automatically generates an invoice when purchases are made. Dresscode was developed as a group using the SCRUM methodology, with each of the members having important coding roles.`,
     technologies: ["Java", "JavaEE", "JavaFX", "XML", "MySQL"],
     link: 'https://github.com/bjulian-2022033/DressCode.git'
   },
@@ -100,7 +102,7 @@ export const PROJECTS = [
     title: "Responsive Website",
     image: website1,
     description:
-      `Sitio web de diseño front-end responsive el cúal contiene distintos segmentos. En el primero se encuentra una descripción de mis hobbies o hobbie favorito que en este caso es la calistenia. Segundo, página sobre mi persona incluyendo autobiografía. Y, por último, remodelación de la página principal de Fundación Kinal, desarrollado por mí. Para observar la página haz doble click en el documento index.html.`,
+      `Responsive front-end design website which contains different segments. In the first one is a description of my hobbies or favorite hobby which in this case is calisthenics. Second, page about myself including autobiography. And finally, remodeling of the main page of Fundación Kinal, developed by me. To see the page double click on the index.html document.`,
     technologies: ["HTML", "CSS", "JavaScript"],
     link: 'https://cetkinal-my.sharepoint.com/:u:/g/personal/fpaiz-2022134_kinal_edu_gt/ES6G-qQvp7JMsiWsB4_LLYwBpAfR8kv94THB3-CXZ3Q9Cg?e=RBW0BJ'
   },
@@ -109,7 +111,7 @@ export const PROJECTS = [
     image: agendaweb2,
     description:
       `
-      Programa el cuál contiene un inicio de sesión de diseño frontend responsivo, integrando tarjetas de información de contactos que al hacer click los llevará a su información personal. Y por último y principalmente un To Do List que es un creador de tareas el cual permité ver, almacenar, agregar, editar y eliminar las tareas que desees.
+      Program which contains a responsive frontend design login, integrating contact information cards that when clicked will take them to their personal information. And finally and mainly a To Do List which is a task creator which allows you to view, store, add, edit and delete the tasks you want.
       `,
     technologies: ["HTML", "CSS", "JavaScript"],
     link: 'https://cetkinal-my.sharepoint.com/:u:/g/personal/fpaiz-2022134_kinal_edu_gt/EauXnnMTSjVOprIX8MCb_yIB30x5X_GOz-sEWTExuHYQEw?e=eiyATx'
@@ -119,7 +121,7 @@ export const PROJECTS = [
     image: gestorcomercial,
     description:
       `
-      El proyecto es un API cuya idea principal es una lógica de BackEnd para el desarrollo de una tienda online o supermercado. El programa permite al administrador crear productos, gestionar facturas, gestionar categorías de productos y agregar productos. Al cliente, le permite registrarse e iniciar sesión, tener un carrito de compras, agregar productos, realizar la compra, generar una factura automáticamente, ver su historial de compras y facturas, y finalmente, imprimir la factura de su compra en formato PDF.
+      The project is an API whose main idea is a BackEnd logic for the development of an online store or supermarket. The program allows the administrator to create products, manage invoices, manage product categories and add products. To the customer, it allows him to register and login, have a shopping cart, add products, checkout, generate an invoice automatically, view his purchase history and invoices, and finally, print the invoice of his purchase in PDF format.
       `,
     technologies: ["Express", "NodeJS", "JavaScript", "MongoDB"],
     lik: 'https://github.com/fpaiz-2022134/ProyectoBimestral.git'
@@ -127,30 +129,30 @@ export const PROJECTS = [
 
   {
     title: "Local Storage (ToDo) ",
-    image: task1,
+    image: task2,
     description:
       `
-      Aplicación web desarrollada con React JS como Frontend y Node JS como Backend, adicional a la conexión a base de datos no relacional en MongoDB. Consiste en un programa de tipo To Do List en el cuál permite crear. editar, observar y eliminar tareas con datos del creador de la tarea como nombre y apellido, datos de la tarea que contiene título, descripción, fecha de inicio, fecha final. Además permite indicar si la tarea ha sido o no realizada.
+      Web application developed with React JS as Frontend and Node JS as Backend, in addition to the connection to a non-relational database in MongoDB. It consists of a program of type To Do List in which allows to create, edit, observe and delete tasks with data of the creator of the task as name and surname, data of the task that contains title, description, start date, end date. It also allows to indicate if the task has been done or not.
       `,
     technologies: ["Express", "NodeJS", "JavaScript", "MongoDB"],
     link: 'https://github.com/fpaiz-2022134/KinalTec.git'
   },
   {
     title: "Olasis Hotel Management ",
-    image: task1,
+    image: olasis1,
     description:
       `
-      Se tratá de un Gestor de Hoteles y funcionalmente como un sitio con similitud a la aplicación de Trivago. Permite agregar, crear, editar, gestionar y eliminar hoteles, categorías, servicios, etc. También, como usuario puede realizar tanto reservaciones para habitaciones o planificación de eventos utilizando el hotel. Este proyecto fue realizado de manera grupal en el que yo lideré los procesos.
+      It is a Hotel Manager and functionally like a site with similarity to the Trivago application. It allows you to add, create, edit, manage, and delete hotels, categories, services, etc. Also, as a user you can make reservations for rooms or event planning using the hotel. This project was done in a group way in which I led the processes.
       `,
     technologies: ["Express", "NodeJS", "JavaScript", "MongoDB"],
     link: 'https://github.com/fpaiz-2022134/Hotel-Olasis-Kinalitos.git'
   },
   {
     title: "Cashflow Bank ",
-    image: cashflow,
+    image: cashflow2,
     description:
       `
-      Se trata de un banco online que cuenta con funcionalidades tanto para administrador como para un usuario. En la parte del administrador este puede gestionar productos, usuarios, depósitos y tipos de cuenta. Mientras que, el usuario puede observar los datos de su cuenta, gestionar sus datos de usuario, realizar transacciones, compra de productos y agregar cuentas favoritas. 
+      It is an online bank that has functionalities for both administrator and user. The administrator can manage products, users, deposits and account types. While, the user can view his account data, manage his user data, make transactions, purchase products and add favorite accounts. 
       `,
     technologies: ["Express", "NodeJS", "JavaScript", "MongoDB", "Tailwind Css"],
     link: 'https://github.com/Chejinos-Kinal/online-bank-frontend.git'
@@ -158,7 +160,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+502 51803683",
+  email: "fralpaiz@gmail.com",
 };
