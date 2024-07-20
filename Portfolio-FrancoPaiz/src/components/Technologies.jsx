@@ -38,15 +38,15 @@ const circleVariants = {
 
 export const Technologies = () => {
     const technologies = [
-        { icon: <SiCisco className='text-7xl text-cyan-400' />, name: 'Cisco', type: 'Networking', percentage: 40, color: 'cyan-400' },
+        { icon: <SiCisco className='text-7xl text-cyan-400' />, name: 'Cisco', type: 'Networking', percentage: 60, color: 'cyan-400' },
         { icon: <FaJava className='text-7xl text-red-500' />, name: 'Java', type: 'Programming Language', percentage: 90, color: 'blue-600' },
         { icon: <SiMysql className='text-7xl text-blue-500' />, name: 'MySQL', type: 'Database', percentage: 90, color: 'blue-500' },
         { icon: <IoLogoJavascript className='text-7xl text-yellow-500' />, name: 'JavaScript', type: 'Programming Language', percentage: 60, color: 'yellow-500' },
         { icon: <FaHtml5 className='text-7xl text-orange-600' />, name: 'HTML5', type: 'Markup Language', percentage: 80, color: 'orange-600' },
         { icon: <FaCss3Alt className='text-7xl text-blue-600' />, name: 'CSS3', type: 'Styling Language', percentage: 80, color: 'blue-600' },
-        { icon: <FaNodeJs className='text-7xl text-green-500' />, name: 'Node.js', type: 'Runtime Environment', percentage: 70, color: 'green-500' },
-        { icon: <RiReactjsLine className='text-7xl text-cyan-500' />, name: 'React', type: 'JavaScript Library', percentage: 70, color: 'cyan-500' },
-        { icon: <SiMongodb className='text-7xl text-green-500' />, name: 'MongoDB', type: 'Database', percentage: 50, color: 'green-500' },
+        { icon: <FaNodeJs className='text-7xl text-green-500' />, name: 'Node.js', type: 'Runtime Environment', percentage: 85, color: 'green-500' },
+        { icon: <RiReactjsLine className='text-7xl text-cyan-500' />, name: 'React', type: 'JavaScript Library', percentage: 85, color: 'cyan-500' },
+        { icon: <SiMongodb className='text-7xl text-green-500' />, name: 'MongoDB', type: 'Database', percentage: 70, color: 'green-500' },
         { icon: <FaGithub className='text-7xl text-gray-500' />, name: 'GitHub', type: 'Version Control', percentage: 75, color: 'gray-500' },
     ];
 

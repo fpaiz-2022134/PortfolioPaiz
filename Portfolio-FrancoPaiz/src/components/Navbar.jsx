@@ -26,9 +26,9 @@ export const Navbar = () => {
         <a href="#photos" className="block lg:inline-block mt-2 lg:mt-0">Photos</a>
         <a href="#contact" className="block lg:inline-block mt-2 lg:mt-0">Contact</a>
         <div className='flex items-center justify-center lg:ml-4 mt-4 lg:mt-0'>
-          <FaLinkedin className="mx-2 text-2xl" />
+          <a href="https://www.linkedin.com/in/franco-paiz-dev"><FaLinkedin className="mx-2 text-2xl" /></a>
           <a href="https://github.com/fpaiz-2022134"><FaGithub className="mx-2 text-2xl" /></a>
-          <FaInstagram className="mx-2 text-2xl" />
+          <a href="https://www.instagram.com/frc_paiz.x/"><FaInstagram className="mx-2 text-2xl" /></a>
           <img src={computrabajo} alt="" className='w-10 h-10' />
         </div>
       </div>
