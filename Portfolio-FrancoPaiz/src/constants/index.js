@@ -142,7 +142,7 @@ export const PROJECTS = [
     image: olasis1,
     description:
       `It is a Hotel Manager and functionally like a site with similarity to the Trivago application. It allows you to add, create, edit, manage, and delete hotels, categories, services, etc. Also, as a user you can make reservations for rooms or event planning using the hotel. This project was done in a group way in which I led the processes.`,
-    technologies: ["Express", "NodeJS", "JavaScript", "MongoDB"],
+    technologies: ["Express", "NodeJS", "JavaScript", "MongoDB", "React"],
     link: 'https://github.com/fpaiz-2022134/Hotel-Olasis-Kinalitos.git',
     skillsLearned: "Gained leadership experience in a group project, and improved skills in developing complex applications with Express, Node.js, and MongoDB."
   },
