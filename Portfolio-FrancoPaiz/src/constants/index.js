@@ -159,7 +159,7 @@ export const PROJECTS = [
   }
 ];
 export const CONTACT = {
-  phoneNo: "+502 51803683",
+  /* phoneNo: "+502 51803683", */
   email: "fralpaiz@gmail.com",
   workProfileImage: perfiltrabajo,
   additionalImage: linkedin
